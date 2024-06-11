@@ -1,0 +1,136 @@
+[
+    {
+      "_id": "65117ef88bc228f1a87e9f01",
+      "name": "Home Browse Basic Fiber",
+      "limitStr": "10240k/10240k",
+      "created_at": "2023-09-25T12:37:12.216Z",
+      "updated_at": "2023-09-25T12:37:12.216Z"
+    },
+    {
+      "_id": "65117ef88bc228f1a87e9f02",
+      "name": "Home Browse Fiber",
+      "limitStr": "20480k/20480k",
+      "created_at": "2023-09-25T12:37:12.216Z",
+      "updated_at": "2023-09-25T12:37:12.216Z"
+    },
+    {
+      "_id": "65117ef88bc228f1a87e9f03",
+      "name": "Home Browse Plus Fiber",
+      "limitStr": "30720k/30720k",
+      "created_at": "2023-09-25T12:37:12.216Z",
+      "updated_at": "2023-09-25T12:37:12.216Z"
+    },
+    {
+      "_id": "65117ef88bc228f1a87e9f04",
+      "name": "Home Stream Fiber",
+      "limitStr": "40960k/40960k",
+      "created_at": "2023-09-25T12:37:12.216Z",
+      "updated_at": "2023-09-25T12:37:12.216Z"
+    },
+    {
+      "_id": "65117ef88bc228f1a87e9f05",
+      "name": "Home Stream Plus Fiber",
+      "limitStr": "51200k/51200k",
+      "created_at": "2023-09-25T12:37:12.216Z",
+      "updated_at": "2023-09-25T12:37:12.216Z"
+    },
+    {
+      "_id": "65117ef88bc228f1a87e9f06",
+      "name": "Home Multi-Stream Fiber",
+      "limitStr": "61440k/61440k",
+      "created_at": "2023-09-25T12:37:12.216Z",
+      "updated_at": "2023-09-25T12:37:12.216Z"
+    },
+    {
+      "_id": "65117ef88bc228f1a87e9f07",
+      "name": "Home Browse Basic Wireless",
+      "limitStr": "10240k/10240k",
+      "created_at": "2023-09-25T12:37:12.216Z",
+      "updated_at": "2023-09-25T12:37:12.216Z"
+    },
+    {
+      "_id": "65117ef88bc228f1a87e9f08",
+      "name": "Home Browse Wireless",
+      "limitStr": "20480k/20480k",
+      "created_at": "2023-09-25T12:37:12.216Z",
+      "updated_at": "2023-09-25T12:37:12.216Z"
+    },
+    {
+      "_id": "65117ef88bc228f1a87e9f09",
+      "name": "Home Browse Plus Wireless",
+      "limitStr": "30720k/30720k",
+      "created_at": "2023-09-25T12:37:12.216Z",
+      "updated_at": "2023-09-25T12:37:12.216Z"
+    },
+    {
+      "_id": "65117ef88bc228f1a87e9f0a",
+      "name": "Home Stream Wireless",
+      "limitStr": "40960k/40960k",
+      "created_at": "2023-09-25T12:37:12.216Z",
+      "updated_at": "2023-09-25T12:37:12.216Z"
+    },
+    {
+      "_id": "65117ef88bc228f1a87e9f0b",
+      "name": "Home Stream Plus Wireless",
+      "limitStr": "51200k/51200k",
+      "created_at": "2023-09-25T12:37:12.216Z",
+      "updated_at": "2023-09-25T12:37:12.216Z"
+    },
+    {
+      "_id": "65117ef88bc228f1a87e9f0c",
+      "name": "Home Multi-Stream Wireless",
+      "limitStr": "61440k/61440k",
+      "created_at": "2023-09-25T12:37:12.216Z",
+      "updated_at": "2023-09-25T12:37:12.216Z"
+    },
+    {
+      "_id": "65117ef88bc228f1a87e9f0d",
+      "name": "Corporate Browse Basic",
+      "limitStr": "10240k/10240k",
+      "created_at": "2023-09-25T12:37:12.216Z",
+      "updated_at": "2023-09-25T12:37:12.216Z"
+    },
+    {
+      "_id": "65117ef88bc228f1a87e9f0e",
+      "name": "Corporate Browse",
+      "limitStr": "20480k/20480k",
+      "created_at": "2023-09-25T12:37:12.216Z",
+      "updated_at": "2023-09-25T12:37:12.216Z"
+    },
+    {
+      "_id": "65117ef88bc228f1a87e9f0f",
+      "name": "Corporate Browse Plus",
+      "limitStr": "30720k/30720k",
+      "created_at": "2023-09-25T12:37:12.216Z",
+      "updated_at": "2023-09-25T12:37:12.216Z"
+    },
+    {
+      "_id": "65117ef88bc228f1a87e9f10",
+      "name": "Corporate Browse Stream",
+      "limitStr": "40960k/40960k",
+      "created_at": "2023-09-25T12:37:12.216Z",
+      "updated_at": "2023-09-25T12:37:12.216Z"
+    },
+    {
+      "_id": "65117ef88bc228f1a87e9f11",
+      "name": "Corporate Stream",
+      "limitStr": "51200k/51200k",
+      "created_at": "2023-09-25T12:37:12.216Z",
+      "updated_at": "2023-09-25T12:37:12.216Z"
+    },
+    {
+      "_id": "65117ef88bc228f1a87e9f12",
+      "name": "Corporate Stream Plus",
+      "limitStr": "61440k/61440k",
+      "created_at": "2023-09-25T12:37:12.216Z",
+      "updated_at": "2023-09-25T12:37:12.216Z"
+    },
+    {
+      "_id": "65117ef88bc228f1a87e9f13",
+      "name": "Corporate Multi-Stream",
+      "limitStr": "71680k/71680k",
+      "created_at": "2023-09-25T12:37:12.216Z",
+      "updated_at": "2023-09-25T12:37:12.216Z"
+    }
+  ]
+  

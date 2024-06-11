@@ -1,0 +1,728 @@
+{
+    "ok": true,
+    "subscriptions": [
+      {
+        "location": {
+          "type": "Point",
+          "coordinates": [-73.935242, 40.730610]
+        },
+        "_id": "65117efa8bc228f1a87e9f8b",
+        "name": "inet0001118",
+        "password": "69384e2b",
+        "zcrm_id": "3288117000015744051",
+        "plan": {
+          "_id": "65117ef88bc228f1a87e9f12",
+          "name": "Corporate Stream Plus",
+          "limitStr": "20480k/20480k",
+          "created_at": "2023-09-25T12:37:12.216Z",
+          "updated_at": "2023-09-25T12:37:12.216Z",
+          "__v": 0
+        },
+        "PPPoE": "pppoe_user",
+        "mac_add": "18:FD:74:DD:DB:49",
+        "usePublicIp": false,
+        "ips": {
+          "172.16.254.12": {
+            "ip": "10.0.44.32",
+            "subnetMask": "255.255.252.0",
+            "zabbixConnected": true
+          }
+        },
+        "publicIps": {
+          "203.0.113.10": {
+            "ip": "203.0.113.10",
+            "subnetMask": "255.255.255.0",
+            "zabbixConnected": true
+          }
+        },
+        "last_con": {
+          "ip": "10.0.44.32",
+          "NAS": "MLD-MBR-MIK-SW-1",
+          "NAS_IP": "172.16.254.12",
+          "time": "2024-04-16T05:44:50.922Z",
+          "mac_add": "18:FD:74:DD:DB:49"
+        },
+        "isDisconnected": false,
+        "isTerminated": false,
+        "statusLevel": "active",
+        "created_at": "2024-06-03T12:37:14.269Z",
+        "updated_at": "2024-04-16T05:44:50.922Z",
+        "__v": 0
+      },
+      {
+        "location": {
+          "type": "Point",
+          "coordinates": [-74.006, 40.7128]
+        },
+        "_id": "65117efa8bc228f1a87e9f8c",
+        "name": "inet0001119",
+        "password": "12345abc",
+        "zcrm_id": "3288117000015744052",
+        "plan": {
+          "_id": "65117ef88bc228f1a87e9f0d",
+          "name": "Corporate Browse Basic",
+          "limitStr": "10240k/10240k",
+          "created_at": "2023-09-25T12:37:12.216Z",
+          "updated_at": "2023-09-25T12:37:12.216Z",
+          "__v": 0
+        },
+        "PPPoE": "pppoe_user_2",
+        "mac_add": "00:1B:44:11:3A:B7",
+        "usePublicIp": true,
+        "ips": {
+          "172.16.254.13": {
+            "ip": "10.0.44.33",
+            "subnetMask": "255.255.252.0",
+            "zabbixConnected": false
+          }
+        },
+        "publicIps": {
+          "203.0.113.11": {
+            "ip": "203.0.113.11",
+            "subnetMask": "255.255.255.0",
+            "zabbixConnected": false
+          }
+        },
+        "last_con": {
+          "ip": "10.0.44.33",
+          "NAS": "NYC-MBR-MIK-SW-1",
+          "NAS_IP": "172.16.254.13",
+          "time": "2024-04-16T06:00:00.000Z",
+          "mac_add": "00:1B:44:11:3A:B7"
+        },
+        "isDisconnected": true,
+        "isTerminated": false,
+        "statusLevel": "inactive",
+        "created_at": "2024-06-01T12:37:14.269Z",
+        "updated_at": "2024-04-16T06:00:00.000Z",
+        "__v": 0
+      },
+      {
+        "location": {
+          "type": "Point",
+          "coordinates": [-118.243683, 34.052235]
+        },
+        "_id": "65117efa8bc228f1a87e9f8d",
+        "name": "inet0001120",
+        "password": "password123",
+        "zcrm_id": "3288117000015744053",
+        "plan": {
+          "_id": "65117ef88bc228f1a87e9f03",
+          "name": "Home Browse Plus Fiber",
+          "limitStr": "5120k/5120k",
+          "created_at": "2023-09-25T12:37:12.216Z",
+          "updated_at": "2023-09-25T12:37:12.216Z",
+          "__v": 0
+        },
+        "PPPoE": "pppoe_user_3",
+        "mac_add": "00:1C:42:2E:60:4A",
+        "usePublicIp": false,
+        "ips": {
+          "172.16.254.14": {
+            "ip": "10.0.44.34",
+            "subnetMask": "255.255.252.0",
+            "zabbixConnected": true
+          }
+        },
+        "publicIps": {
+          "203.0.113.12": {
+            "ip": "203.0.113.12",
+            "subnetMask": "255.255.255.0",
+            "zabbixConnected": true
+          }
+        },
+        "last_con": {
+          "ip": "10.0.44.34",
+          "NAS": "LA-MBR-MIK-SW-1",
+          "NAS_IP": "172.16.254.14",
+          "time": "2024-04-16T07:00:00.000Z",
+          "mac_add": "00:1C:42:2E:60:4A"
+        },
+        "isDisconnected": false,
+        "isTerminated": false,
+        "statusLevel": "active",
+        "created_at": "2023-09-25T12:37:14.269Z",
+        "updated_at": "2024-04-16T07:00:00.000Z",
+        "__v": 0
+      },
+      {
+        "location": {
+          "type": "Point",
+          "coordinates": [-0.127758, 51.507351]
+        },
+        "_id": "65117efa8bc228f1a87e9f8e",
+        "name": "inet0001121",
+        "password": "securepass",
+        "zcrm_id": "3288117000015744054",
+        "plan": {
+          "_id": "65117ef88bc228f1a87e9f0c",
+          "name": "Home Multi-Stream Wireless",
+          "limitStr": "10240k/10240k",
+          "created_at": "2023-09-25T12:37:12.216Z",
+          "updated_at": "2023-09-25T12:37:12.216Z",
+          "__v": 0
+        },
+        "PPPoE": "pppoe_user_4",
+        "mac_add": "00:1D:7E:2E:60:4A",
+        "usePublicIp": true,
+        "ips": {
+          "172.16.254.15": {
+            "ip": "10.0.44.35",
+            "subnetMask": "255.255.252.0",
+            "zabbixConnected": true
+          }
+        },
+        "publicIps": {
+          "203.0.113.13": {
+            "ip": "203.0.113.13",
+            "subnetMask": "255.255.255.0",
+            "zabbixConnected": true
+          }
+        },
+        "last_con": {
+          "ip": "10.0.44.35",
+          "NAS": "LON-MBR-MIK-SW-1",
+          "NAS_IP": "172.16.254.15",
+          "time": "2024-04-16T08:00:00.000Z",
+          "mac_add": "00:1D:7E:2E:60:4A"
+        },
+        "isDisconnected": false,
+        "isTerminated": false,
+        "statusLevel": "active",
+        "created_at": "2023-09-25T12:37:14.269Z",
+        "updated_at": "2024-04-16T08:00:00.000Z",
+        "__v": 0
+      },
+      {
+        "location": {
+          "type": "Point",
+          "coordinates": [151.209900, -33.865143]
+        },
+        "_id": "65117efa8bc228f1a87e9f8f",
+        "name": "inet0001122",
+        "password": "mysecret",
+        "zcrm_id": "3288117000015744055",
+        "plan": {
+          "_id": "65117ef88bc228f1a87e9f05",
+          "name": "Home Stream Plus Fiber",
+          "limitStr": "15360k/15360k",
+          "created_at": "2023-09-25T12:37:12.216Z",
+          "updated_at": "2023-09-25T12:37:12.216Z",
+          "__v": 0
+        },
+        "PPPoE": "pppoe_user_5",
+        "mac_add": "00:1E:67:2E:60:4A",
+        "usePublicIp": false,
+        "ips": {
+          "172.16.254.16": {
+            "ip": "10.0.44.36",
+            "subnetMask": "255.255.252.0",
+            "zabbixConnected": true
+          }
+        },
+        "publicIps": {
+          "203.0.113.14": {
+            "ip": "203.0.113.14",
+            "subnetMask": "255.255.255.0",
+            "zabbixConnected": true
+          }
+        },
+        "last_con": {
+          "ip": "10.0.44.36",
+          "NAS": "SYD-MBR-MIK-SW-1",
+          "NAS_IP": "172.16.254.16",
+          "time": "2024-04-16T09:00:00.000Z",
+          "mac_add": "00:1E:67:2E:60:4A"
+        },
+        "isDisconnected": false,
+        "isTerminated": false,
+        "statusLevel": "active",
+        "created_at": "2023-09-25T12:37:14.269Z",
+        "updated_at": "2024-04-16T09:00:00.000Z",
+        "__v": 0
+      },
+      {
+        "location": {
+          "type": "Point",
+          "coordinates": [2.3522, 48.8566]
+        },
+        "_id": "65117efa8bc228f1a87e9f90",
+        "name": "inet0001123",
+        "password": "securepass123",
+        "zcrm_id": "3288117000015744056",
+        "plan": {
+          "_id": "65117ef88bc228f1a87e9f0e",
+          "name": "Corporate Browse",
+          "limitStr": "10240k/10240k",
+          "created_at": "2023-09-25T12:37:12.216Z",
+          "updated_at": "2023-09-25T12:37:12.216Z",
+          "__v": 0
+        },
+        "PPPoE": "pppoe_user_6",
+        "mac_add": "00:1F:89:2E:60:4A",
+        "usePublicIp": true,
+        "ips": {
+          "172.16.254.17": {
+            "ip": "10.0.44.37",
+            "subnetMask": "255.255.252.0",
+            "zabbixConnected": true
+          }
+        },
+        "publicIps": {
+          "203.0.113.15": {
+            "ip": "203.0.113.15",
+            "subnetMask": "255.255.255.0",
+            "zabbixConnected": true
+          }
+        },
+        "last_con": {
+          "ip": "10.0.44.37",
+          "NAS": "PAR-MBR-MIK-SW-1",
+          "NAS_IP": "172.16.254.17",
+          "time": "2024-04-16T10:00:00.000Z",
+          "mac_add": "00:1F:89:2E:60:4A"
+        },
+        "isDisconnected": false,
+        "isTerminated": false,
+        "statusLevel": "active",
+        "created_at": "2023-09-25T12:37:14.269Z",
+        "updated_at": "2024-04-16T10:00:00.000Z",
+        "__v": 0
+      },
+      {
+        "location": {
+          "type": "Point",
+          "coordinates": [-87.6298, 41.8781]
+        },
+        "_id": "65117efa8bc228f1a87e9f91",
+        "name": "inet0001124",
+        "password": "password1234",
+        "zcrm_id": "3288117000015744057",
+        "plan": {
+          "_id": "65117ef88bc228f1a87e9f0d",
+          "name": "Corporate Browse Basic",
+          "limitStr": "10240k/10240k",
+          "created_at": "2023-09-25T12:37:12.216Z",
+          "updated_at": "2023-09-25T12:37:12.216Z",
+          "__v": 0
+        },
+        "PPPoE": "pppoe_user_7",
+        "mac_add": "00:1A:6F:2E:60:4A",
+        "usePublicIp": false,
+        "ips": {
+          "172.16.254.18": {
+            "ip": "10.0.44.38",
+            "subnetMask": "255.255.252.0",
+            "zabbixConnected": true
+          }
+        },
+        "publicIps": {
+          "203.0.113.16": {
+            "ip": "203.0.113.16",
+            "subnetMask": "255.255.255.0",
+            "zabbixConnected": true
+          }
+        },
+        "last_con": {
+          "ip": "10.0.44.38",
+          "NAS": "CHI-MBR-MIK-SW-1",
+          "NAS_IP": "172.16.254.18",
+          "time": "2024-04-16T11:00:00.000Z",
+          "mac_add": "00:1A:6F:2E:60:4A"
+        },
+        "isDisconnected": false,
+        "isTerminated": false,
+        "statusLevel": "active",
+        "created_at": "2023-09-25T12:37:14.269Z",
+        "updated_at": "2024-04-16T11:00:00.000Z",
+        "__v": 0
+      },
+      {
+        "location": {
+          "type": "Point",
+          "coordinates": [114.1095, 22.3964]
+        },
+        "_id": "65117efa8bc228f1a87e9f92",
+        "name": "inet0001125",
+        "password": "newpassword",
+        "zcrm_id": "3288117000015744058",
+        "plan": {
+          "_id": "65117ef88bc228f1a87e9f11",
+          "name": "Corporate Stream",
+          "limitStr": "20480k/20480k",
+          "created_at": "2023-09-25T12:37:12.216Z",
+          "updated_at": "2023-09-25T12:37:12.216Z",
+          "__v": 0
+        },
+        "PPPoE": "pppoe_user_8",
+        "mac_add": "00:1B:2F:2E:60:4A",
+        "usePublicIp": true,
+        "ips": {
+          "172.16.254.19": {
+            "ip": "10.0.44.39",
+            "subnetMask": "255.255.252.0",
+            "zabbixConnected": true
+          }
+        },
+        "publicIps": {
+          "203.0.113.17": {
+            "ip": "203.0.113.17",
+            "subnetMask": "255.255.255.0",
+            "zabbixConnected": true
+          }
+        },
+        "last_con": {
+          "ip": "10.0.44.39",
+          "NAS": "HKG-MBR-MIK-SW-1",
+          "NAS_IP": "172.16.254.19",
+          "time": "2024-04-16T12:00:00.000Z",
+          "mac_add": "00:1B:2F:2E:60:4A"
+        },
+        "isDisconnected": false,
+        "isTerminated": false,
+        "statusLevel": "active",
+        "created_at": "2023-09-25T12:37:14.269Z",
+        "updated_at": "2024-04-16T12:00:00.000Z",
+        "__v": 0
+      },
+      {
+        "location": {
+          "type": "Point",
+          "coordinates": [77.1025, 28.7041]
+        },
+        "_id": "65117efa8bc228f1a87e9f93",
+        "name": "inet0001126",
+        "password": "pass1234",
+        "zcrm_id": "3288117000015744059",
+        "plan": {
+          "_id": "65117ef88bc228f1a87e9f0e",
+          "name": "Corporate Browse",
+          "limitStr": "10240k/10240k",
+          "created_at": "2023-09-25T12:37:12.216Z",
+          "updated_at": "2023-09-25T12:37:12.216Z",
+          "__v": 0
+        },
+        "PPPoE": "pppoe_user_9",
+        "mac_add": "00:1A:7E:2E:60:4A",
+        "usePublicIp": false,
+        "ips": {
+          "172.16.254.20": {
+            "ip": "10.0.44.40",
+            "subnetMask": "255.255.252.0",
+            "zabbixConnected": true
+          }
+        },
+        "publicIps": {
+          "203.0.113.18": {
+            "ip": "203.0.113.18",
+            "subnetMask": "255.255.255.0",
+            "zabbixConnected": true
+          }
+        },
+        "last_con": {
+          "ip": "10.0.44.40",
+          "NAS": "DEL-MBR-MIK-SW-1",
+          "NAS_IP": "172.16.254.20",
+          "time": "2024-04-16T13:00:00.000Z",
+          "mac_add": "00:1A:7E:2E:60:4A"
+        },
+        "isDisconnected": false,
+        "isTerminated": false,
+        "statusLevel": "active",
+        "created_at": "2023-09-25T12:37:14.269Z",
+        "updated_at": "2024-04-16T13:00:00.000Z",
+        "__v": 0
+      },
+      {
+        "location": {
+          "type": "Point",
+          "coordinates": [-0.1278, 51.5074]
+        },
+        "_id": "65117efa8bc228f1a87e9f94",
+        "name": "inet0001127",
+        "password": "secure123",
+        "zcrm_id": "3288117000015744060",
+        "plan": {
+          "_id": "65117ef88bc228f1a87e9f0c",
+          "name": "Home Multi-Stream Wireless",
+          "limitStr": "10240k/10240k",
+          "created_at": "2023-09-25T12:37:12.216Z",
+          "updated_at": "2023-09-25T12:37:12.216Z",
+          "__v": 0
+        },
+        "PPPoE": "pppoe_user_10",
+        "mac_add": "00:1B:5E:2E:60:4A",
+        "usePublicIp": true,
+        "ips": {
+          "172.16.254.21": {
+            "ip": "10.0.44.41",
+            "subnetMask": "255.255.252.0",
+            "zabbixConnected": true
+          }
+        },
+        "publicIps": {
+          "203.0.113.19": {
+            "ip": "203.0.113.19",
+            "subnetMask": "255.255.255.0",
+            "zabbixConnected": true
+          }
+        },
+        "last_con": {
+          "ip": "10.0.44.41",
+          "NAS": "LON-MBR-MIK-SW-1",
+          "NAS_IP": "172.16.254.21",
+          "time": "2024-04-16T14:00:00.000Z",
+          "mac_add": "00:1B:5E:2E:60:4A"
+        },
+        "isDisconnected": false,
+        "isTerminated": false,
+        "statusLevel": "active",
+        "created_at": "2023-09-25T12:37:14.269Z",
+        "updated_at": "2024-04-16T14:00:00.000Z",
+        "__v": 0
+      },
+      {
+        "location": {
+          "type": "Point",
+          "coordinates": [-118.2437, 34.0522]
+        },
+        "_id": "65117efa8bc228f1a87e9f95",
+        "name": "inet0001128",
+        "password": "mysecurepassword",
+        "zcrm_id": "3288117000015744061",
+        "plan": {
+          "_id": "65117ef88bc228f1a87e9f05",
+          "name": "Home Stream Plus Fiber",
+          "limitStr": "15360k/15360k",
+          "created_at": "2023-09-25T12:37:12.216Z",
+          "updated_at": "2023-09-25T12:37:12.216Z",
+          "__v": 0
+        },
+        "PPPoE": "pppoe_user_11",
+        "mac_add": "00:1C:9F:2E:60:4A",
+        "usePublicIp": false,
+        "ips": {
+          "172.16.254.22": {
+            "ip": "10.0.44.42",
+            "subnetMask": "255.255.252.0",
+            "zabbixConnected": true
+          }
+        },
+        "publicIps": {
+          "203.0.113.20": {
+            "ip": "203.0.113.20",
+            "subnetMask": "255.255.255.0",
+            "zabbixConnected": true
+          }
+        },
+        "last_con": {
+          "ip": "10.0.44.42",
+          "NAS": "LA-MBR-MIK-SW-1",
+          "NAS_IP": "172.16.254.22",
+          "time": "2024-04-16T15:00:00.000Z",
+          "mac_add": "00:1C:9F:2E:60:4A"
+        },
+        "isDisconnected": false,
+        "isTerminated": false,
+        "statusLevel": "active",
+        "created_at": "2023-09-25T12:37:14.269Z",
+        "updated_at": "2024-04-16T15:00:00.000Z",
+        "__v": 0
+      },
+      {
+        "location": {
+          "type": "Point",
+          "coordinates": [-3.7038, 40.4168]
+        },
+        "_id": "65117efa8bc228f1a87e9f96",
+        "name": "inet0001129",
+        "password": "newpass123",
+        "zcrm_id": "3288117000015744062",
+        "plan": {
+          "_id": "65117ef88bc228f1a87e9f12",
+          "name": "Corporate Stream Plus",
+          "limitStr": "20480k/20480k",
+          "created_at": "2023-09-25T12:37:12.216Z",
+          "updated_at": "2023-09-25T12:37:12.216Z",
+          "__v": 0
+        },
+        "PPPoE": "pppoe_user_12",
+        "mac_add": "00:1D:8F:2E:60:4A",
+        "usePublicIp": true,
+        "ips": {
+          "172.16.254.23": {
+            "ip": "10.0.44.43",
+            "subnetMask": "255.255.252.0",
+            "zabbixConnected": true
+          }
+        },
+        "publicIps": {
+          "203.0.113.21": {
+            "ip": "203.0.113.21",
+            "subnetMask": "255.255.255.0",
+            "zabbixConnected": true
+          }
+        },
+        "last_con": {
+          "ip": "10.0.44.43",
+          "NAS": "MAD-MBR-MIK-SW-1",
+          "NAS_IP": "172.16.254.23",
+          "time": "2024-04-16T16:00:00.000Z",
+          "mac_add": "00:1D:8F:2E:60:4A"
+        },
+        "isDisconnected": false,
+        "isTerminated": false,
+        "statusLevel": "active",
+        "created_at": "2023-09-25T12:37:14.269Z",
+        "updated_at": "2024-04-16T16:00:00.000Z",
+        "__v": 0
+      },
+      {
+        "location": {
+          "type": "Point",
+          "coordinates": [2.3522, 48.8566]
+        },
+        "_id": "65117efa8bc228f1a87e9f97",
+        "name": "inet0001130",
+        "password": "securepass1234",
+        "zcrm_id": "3288117000015744063",
+        "plan": {
+          "_id": "65117ef88bc228f1a87e9f0d",
+          "name": "Corporate Stream Basic",
+          "limitStr": "10240k/10240k",
+          "created_at": "2023-09-25T12:37:12.216Z",
+          "updated_at": "2023-09-25T12:37:12.216Z",
+          "__v": 0
+        },
+        "PPPoE": "pppoe_user_13",
+        "mac_add": "00:1E:9F:2E:60:4A",
+        "usePublicIp": false,
+        "ips": {
+          "172.16.254.24": {
+            "ip": "10.0.44.44",
+            "subnetMask": "255.255.252.0",
+            "zabbixConnected": true
+          }
+        },
+        "publicIps": {
+          "203.0.113.22": {
+            "ip": "203.0.113.22",
+            "subnetMask": "255.255.255.0",
+            "zabbixConnected": true
+          }
+        },
+        "last_con": {
+          "ip": "10.0.44.44",
+          "NAS": "PAR-MBR-MIK-SW-1",
+          "NAS_IP": "172.16.254.24",
+          "time": "2024-04-16T17:00:00.000Z",
+          "mac_add": "00:1E:9F:2E:60:4A"
+        },
+        "isDisconnected": false,
+        "isTerminated": false,
+        "statusLevel": "active",
+        "created_at": "2023-09-25T12:37:14.269Z",
+        "updated_at": "2024-04-16T17:00:00.000Z",
+        "__v": 0
+      },
+      {
+        "location": {
+          "type": "Point",
+          "coordinates": [-0.1278, 51.5074]
+        },
+        "_id": "65117efa8bc228f1a87e9f98",
+        "name": "inet0001131",
+        "password": "securepass567",
+        "zcrm_id": "3288117000015744064",
+        "plan": {
+          "_id": "65117ef88bc228f1a87e9f0d",
+          "name": "Corporate Browse Basic",
+          "limitStr": "10240k/10240k",
+          "created_at": "2023-09-25T12:37:12.216Z",
+          "updated_at": "2023-09-25T12:37:12.216Z",
+          "__v": 0
+        },
+        "PPPoE": "pppoe_user_14",
+        "mac_add": "00:1F:AF:2E:60:4A",
+        "usePublicIp": false,
+        "ips": {
+          "172.16.254.25": {
+            "ip": "10.0.44.45",
+            "subnetMask": "255.255.252.0",
+            "zabbixConnected": true
+          }
+        },
+        "publicIps": {
+          "203.0.113.23": {
+            "ip": "203.0.113.23",
+            "subnetMask": "255.255.255.0",
+            "zabbixConnected": true
+          }
+        },
+        "last_con": {
+          "ip": "10.0.44.45",
+          "NAS": "LON-MBR-MIK-SW-1",
+          "NAS_IP": "172.16.254.25",
+          "time": "2024-04-16T18:00:00.000Z",
+          "mac_add": "00:1F:AF:2E:60:4A"
+        },
+        "isDisconnected": false,
+        "isTerminated": false,
+        "statusLevel": "active",
+        "created_at": "2023-09-25T12:37:14.269Z",
+        "updated_at": "2024-04-16T18:00:00.000Z",
+        "__v": 0
+      },
+      {
+        "location": {
+          "type": "Point",
+          "coordinates": [-87.6298, 41.8781]
+        },
+        "_id": "65117efa8bc228f1a87e9f99",
+        "name": "inet0001132",
+        "password": "mynewpass123",
+        "zcrm_id": "3288117000015744065",
+        "plan": {
+          "_id": "65117ef88bc228f1a87e9f0d",
+          "name": "Corporate Stream Basic",
+          "limitStr": "10240k/10240k",
+          "created_at": "2023-09-25T12:37:12.216Z",
+          "updated_at": "2023-09-25T12:37:12.216Z",
+          "__v": 0
+        },
+        "PPPoE": "pppoe_user_15",
+        "mac_add": "00:1A:CF:2E:60:4A",
+        "usePublicIp": false,
+        "ips": {
+          "172.16.254.26": {
+            "ip": "10.0.44.46",
+            "subnetMask": "255.255.252.0",
+            "zabbixConnected": true
+          }
+        },
+        "publicIps": {
+          "203.0.113.24": {
+            "ip": "203.0.113.24",
+            "subnetMask": "255.255.255.0",
+            "zabbixConnected": true
+          }
+        },
+        "last_con": {
+          "ip": "10.0.44.46",
+          "NAS": "CHI-MBR-MIK-SW-1",
+          "NAS_IP": "172.16.254.26",
+          "time": "2024-04-16T19:00:00.000Z",
+          "mac_add": "00:1A:CF:2E:60:4A"
+        },
+        "isDisconnected": false,
+        "isTerminated": false,
+        "statusLevel": "active",
+        "created_at": "2023-09-25T12:37:14.269Z",
+        "updated_at": "2024-04-16T19:00:00.000Z",
+        "__v": 0
+      }
+            
+      
+    ]
+  }
+  
