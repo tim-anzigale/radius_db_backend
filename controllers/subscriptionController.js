@@ -4,7 +4,7 @@ const Subscription = require('../models/subscriptionsModel');
 exports.addSubscriptions = async (req, res) => {
   try {
     // Read data from user_data.json
-    const subscriptionsData = require('../user_data.json');
+    const subscriptionsData = require('../assets/user_data.json');
 
     // Log the data to the console before inserting
     console.log('Data being read from user_data.json:', JSON.stringify(subscriptionsData, null, 2));

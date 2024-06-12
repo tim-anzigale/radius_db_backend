@@ -4,7 +4,7 @@ const Plan = require('../models/plansModel');
 exports.addPlans = async (req, res) => {
   try {
     // Read data from plan_data.json
-    const plansData = require('../plan_data.json');
+    const plansData = require('../assets/plan_data.json');
 
     // Insert plans into MongoDB
     await Plan.insertMany(plansData);
