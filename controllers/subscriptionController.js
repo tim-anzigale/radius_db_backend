@@ -23,11 +23,33 @@ exports.addSubscriptions = async (req, res) => {
   }
 };
 
-// Function to get all subscriptions
+
 exports.getAllSubscriptions = async (req, res) => {
   try {
-    const subscriptions = await Subscription.find().populate('plan');
-    res.status(200).json(subscriptions);
+    // Get pagination parameters from the query, with default values
+    const page = parseInt(req.query.page) || 1;
+    const pageSize = parseInt(req.query.pageSize) || 10;
+
+    // Calculate the number of documents to skip
+    const skip = (page - 1) * pageSize;
+
+    // Fetch the paginated subscriptions from the database
+    const subscriptions = await Subscription.find()
+      .populate('plan')
+      .skip(skip)
+      .limit(pageSize);
+
+    // Get the total count of documents
+    const totalSubscriptions = await Subscription.countDocuments();
+
+    // Return the paginated response
+    res.status(200).json({
+      currentPage: page,
+      totalPages: Math.ceil(totalSubscriptions / pageSize),
+      pageSize: pageSize,
+      totalSubscriptions: totalSubscriptions,
+      subscriptions: subscriptions
+    });
   } catch (error) {
     console.error('Error fetching subscriptions:', error);
     res.status(500).json({ error: error.message });
